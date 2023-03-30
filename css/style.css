@@ -1,0 +1,70 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap);
+
+.icons {
+	background: url("../img/webp/AnyConv.com__girl\ backgra.webp")0 0/100% no-repeat, linear-gradient(107deg, rgba(244,247,255,1) 0%, rgba(108,191,170,1) 4%, rgba(222,243,217,1) 14%, rgba(202,192,215,1) 29%, rgba(152,202,159,1) 52%, rgba(173,120,120,1) 67%, rgba(87,118,186,1) 82%, rgba(43,39,55,1) 91%)  rgb(244,247,255) ;
+	max-width: 1440px;
+	height: 800px;
+	overflow: visible;
+	padding: 0px 15px 0px;
+}
+.icons__container {
+	
+}
+.icons__page img:not(:last-child){
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.icons__page{
+	border-bottom: 3px solid red;
+	display: inline-block;
+	margin-right: 200px;
+	max-width: 100%;
+	}
+
+.title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-style: italic;
+	text-shadow: 2px 2px 3px #b94040;
+	margin-bottom: 50px;
+}
+
+.icons__page img:last-child::after{
+	content: "grhgjreger";
+	display: block;
+	height: 1000px;
+	width: 1000px;
+	color: white;
+	background-color: red;
+}
+
+.nextblock{
+	width: 340px;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+}
+.nextblock img{
+	max-width: 140px;
+	max-height: 140px;
+	margin-bottom: 20px;
+}
+
+.nextblock2{
+	width: 340px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 75px;
+}
+.text{
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+	margin-top: 70px;
+}
